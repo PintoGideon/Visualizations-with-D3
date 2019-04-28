@@ -9,6 +9,22 @@
 	<body>
 		<div class="canvas"></div>
 
+		<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-firestore.js"></script>
+		<script>
+			// Initialize Firebase
+			var config = {
+				apiKey: 'AIzaSyBQ7PmWq-ryn3iBzhmchRzPXbwb1GUTQaQ',
+				authDomain: 'data-visualizaions-d3.firebaseapp.com',
+				databaseURL: 'https://data-visualizaions-d3.firebaseio.com',
+				projectId: 'data-visualizaions-d3',
+				storageBucket: 'data-visualizaions-d3.appspot.com',
+				messagingSenderId: '628574992452'
+			};
+			firebase.initializeApp(config);
+			const db = firebase.firestore();
+		</script>
+
 		<script src="https://d3js.org/d3.v5.js"></script>
 		<script src="menu.js"></script>
 	</body>

@@ -129,13 +129,23 @@ const xAxis = d3.axisBottom(x);
 
 5. In D3, the values of svg elements like circle can only be set as left and top. The bar graphs always look inverted on screen like this.
 
-
-
 ```javascript
 
 .attr('x', d => x(d.name))
 		.attr('y', d => y(d.orders));
 ```
+
+# Enter and Exit Groups
+
+It is used to keep track of what elements are currently in the DOM. When we join data to elements, it keeps track of how many elements need to enter the DOM and how many elements need to be taken out of the DOM.
+
+# Updated Pattern in D3
+
+1. Update scales(domains) if they rely on our data
+2. Join updated data to elements
+3. Remove unwanted (if any) shapes using the exit selection
+4. Remove unwanted (if any) shapes using the exit selection
+5. Update current shapes in the dom
 
 
 
