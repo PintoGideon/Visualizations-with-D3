@@ -144,11 +144,7 @@ const xAxis = d3.axisBottom(x);
 ![Screenshot_2019-04-27 Визуализация данных с помощью D3 js и Firebase - Видеоуроки(5)](https://user-images.githubusercontent.com/15992276/56857406-16527380-693b-11e9-991e-3654dae16fd0.png)
 ![Capture](https://user-images.githubusercontent.com/15992276/56857401-16527380-693b-11e9-88b5-5921c23f3525.JPG)
 
-<<<<<<< HEAD
-=======
-Hence we set our x and y attributes as below.
 
->>>>>>> a7354b13347c656795401fc1faaa53905ba46612
 ```javascript
 
 .attr('x', d => x(d.name))
