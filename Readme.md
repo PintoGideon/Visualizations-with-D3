@@ -35,7 +35,10 @@ const rect = svg
 	.attr('fill', d => {
 		return d.fill;
 	});
+	
 ```
+
+![Screenshot_2019-04-27 Визуализация данных с помощью D3 js и Firebase - Видеоуроки](https://user-images.githubusercontent.com/15992276/56857407-16527380-693b-11e9-80c7-21ad4635bd37.png)
 
 # Why we need Linear Scales
 
@@ -51,6 +54,8 @@ If our svg canvas is 600\*600, visualizing the screen is easy using a graph. How
 {name:'something', orders:3000}. Visualizing the value of orders now in pixel would not be possible as 3000px would not stretch outside our screen. Hence we need to scale down the value so we can see them at a reasonable height on the screen.
 
 # Linear Scales
+
+
 
 ```javascript
 const y = d3
@@ -148,7 +153,7 @@ Hence we set our x and y attributes as below.
 ![Screenshot_2019-04-27 Визуализация данных с помощью D3 js и Firebase - Видеоуроки(3)](https://user-images.githubusercontent.com/15992276/56857404-16527380-693b-11e9-9977-4661d02c2515.png)
 ![Screenshot_2019-04-27 Визуализация данных с помощью D3 js и Firebase - Видеоуроки(4)](https://user-images.githubusercontent.com/15992276/56857405-16527380-693b-11e9-8669-a213609c8e39.png)
 ![Screenshot_2019-04-27 Визуализация данных с помощью D3 js и Firebase - Видеоуроки(5)](https://user-images.githubusercontent.com/15992276/56857406-16527380-693b-11e9-991e-3654dae16fd0.png)
-![Screenshot_2019-04-27 Визуализация данных с помощью D3 js и Firebase - Видеоуроки](https://user-images.githubusercontent.com/15992276/56857407-16527380-693b-11e9-80c7-21ad4635bd37.png)
+
 
 
 
